@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114F81E32A63CC6A00CA3F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F81E22A63CC6A00CA3F04 /* AppDelegate.swift */; };
+		114F81E52A63CC6A00CA3F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F81E42A63CC6A00CA3F04 /* SceneDelegate.swift */; };
+		114F81E72A63CC6A00CA3F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F81E62A63CC6A00CA3F04 /* ViewController.swift */; };
+		114F81EA2A63CC6A00CA3F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114F81E82A63CC6A00CA3F04 /* Main.storyboard */; };
+		114F81EC2A63CC6B00CA3F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114F81EB2A63CC6B00CA3F04 /* Assets.xcassets */; };
+		114F81EF2A63CC6B00CA3F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114F81ED2A63CC6B00CA3F04 /* LaunchScreen.storyboard */; };
+		114F81FD2A63CEFA00CA3F04 /* WeclomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F81FB2A63CEFA00CA3F04 /* WeclomeScreen.swift */; };
+		114F81FE2A63CEFA00CA3F04 /* WeclomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F81FC2A63CEFA00CA3F04 /* WeclomeScreen.xib */; };
+		114F82022A63D13500CA3F04 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82002A63D13500CA3F04 /* RegisterScreen.swift */; };
+		114F82032A63D13500CA3F04 /* RegisterScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82012A63D13500CA3F04 /* RegisterScreen.xib */; };
+		114F82072A63D96000CA3F04 /* NewAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82052A63D96000CA3F04 /* NewAccountScreen.swift */; };
+		114F82082A63D96000CA3F04 /* NewAccountScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82062A63D96000CA3F04 /* NewAccountScreen.xib */; };
+		114F820C2A63DC1400CA3F04 /* SuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F820A2A63DC1400CA3F04 /* SuccessScreen.swift */; };
+		114F820D2A63DC1400CA3F04 /* SuccessScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F820B2A63DC1400CA3F04 /* SuccessScreen.xib */; };
+		114F821A2A63DF8200CA3F04 /* UIInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82182A63DF8200CA3F04 /* UIInteractiveView.swift */; };
+		114F821B2A63DF8200CA3F04 /* UIDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82192A63DF8200CA3F04 /* UIDefaultView.swift */; };
+		114F822C2A63E61300CA3F04 /* UIImageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82282A63E61300CA3F04 /* UIImageResize.swift */; };
+		114F822D2A63E61300CA3F04 /* DefaultPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F822A2A63E61300CA3F04 /* DefaultPresentationStyle.swift */; };
+		114F822F2A63E8D900CA3F04 /* TabBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F822E2A63E8D900CA3F04 /* TabBarScreen.swift */; };
+		114F82372A63F19200CA3F04 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82352A63F19200CA3F04 /* HomeScreen.swift */; };
+		114F82382A63F19200CA3F04 /* HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82362A63F19200CA3F04 /* HomeScreen.xib */; };
+		114F823C2A63FF6F00CA3F04 /* DecksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F823A2A63FF6F00CA3F04 /* DecksScreen.swift */; };
+		114F823D2A63FF6F00CA3F04 /* DecksScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F823B2A63FF6F00CA3F04 /* DecksScreen.xib */; };
+		114F82412A64072100CA3F04 /* TypeOfGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F823F2A64072100CA3F04 /* TypeOfGameScreen.swift */; };
+		114F82422A64072100CA3F04 /* TypeOfGameScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82402A64072100CA3F04 /* TypeOfGameScreen.xib */; };
+		114F82462A64140C00CA3F04 /* TypeOfSuperPowerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82442A64140C00CA3F04 /* TypeOfSuperPowerScreen.swift */; };
+		114F82472A64140C00CA3F04 /* TypeOfSuperPowerScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82452A64140C00CA3F04 /* TypeOfSuperPowerScreen.xib */; };
+		114F824B2A64204A00CA3F04 /* SetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82492A64204A00CA3F04 /* SetScreen.swift */; };
+		114F824C2A64204A00CA3F04 /* SetScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F824A2A64204A00CA3F04 /* SetScreen.xib */; };
+		114F82502A6427EE00CA3F04 /* SetScreenOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F824E2A6427EE00CA3F04 /* SetScreenOrange.swift */; };
+		114F82512A6427EE00CA3F04 /* SetScreenOrange.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F824F2A6427EE00CA3F04 /* SetScreenOrange.xib */; };
+		114F82552A642C3C00CA3F04 /* HelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82532A642C3C00CA3F04 /* HelpScreen.swift */; };
+		114F82562A642C3C00CA3F04 /* HelpScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82542A642C3C00CA3F04 /* HelpScreen.xib */; };
+		114F825A2A643F9B00CA3F04 /* SetHelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82582A643F9B00CA3F04 /* SetHelpScreen.swift */; };
+		114F825B2A643F9B00CA3F04 /* SetHelpScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82592A643F9B00CA3F04 /* SetHelpScreen.xib */; };
+		114F825F2A64442600CA3F04 /* PauseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F825D2A64442600CA3F04 /* PauseScreen.swift */; };
+		114F82602A64442600CA3F04 /* PauseScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F825E2A64442600CA3F04 /* PauseScreen.xib */; };
+		114F82642A64486F00CA3F04 /* GiveUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82622A64486F00CA3F04 /* GiveUpScreen.swift */; };
+		114F82652A64486F00CA3F04 /* GiveUpScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82632A64486F00CA3F04 /* GiveUpScreen.xib */; };
+		114F82692A644A3700CA3F04 /* GoodEndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82672A644A3700CA3F04 /* GoodEndScreen.swift */; };
+		114F826A2A644A3700CA3F04 /* GoodEndScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82682A644A3700CA3F04 /* GoodEndScreen.xib */; };
+		114F826E2A64533700CA3F04 /* BadEndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F826C2A64533700CA3F04 /* BadEndScreen.swift */; };
+		114F826F2A64533700CA3F04 /* BadEndScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F826D2A64533700CA3F04 /* BadEndScreen.xib */; };
+		114F82732A64549F00CA3F04 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82712A64549F00CA3F04 /* MoreScreen.swift */; };
+		114F82742A64549F00CA3F04 /* MoreScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82722A64549F00CA3F04 /* MoreScreen.xib */; };
+		114F82782A64579700CA3F04 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82762A64579700CA3F04 /* AccountScreen.swift */; };
+		114F82792A64579700CA3F04 /* AccountScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82772A64579700CA3F04 /* AccountScreen.xib */; };
+		114F827D2A645EB100CA3F04 /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F827B2A645EB100CA3F04 /* StatsScreen.swift */; };
+		114F827E2A645EB100CA3F04 /* StatsScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F827C2A645EB100CA3F04 /* StatsScreen.xib */; };
+		114F82852A6463BA00CA3F04 /* HowToPlayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82832A6463BA00CA3F04 /* HowToPlayScreen.swift */; };
+		114F82862A6463BA00CA3F04 /* HowToPlayScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82842A6463BA00CA3F04 /* HowToPlayScreen.xib */; };
+		114F82892A6469BE00CA3F04 /* GiveFeedBackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F82872A6469BE00CA3F04 /* GiveFeedBackScreen.swift */; };
+		114F828A2A6469BE00CA3F04 /* GiveFeedBackScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82882A6469BE00CA3F04 /* GiveFeedBackScreen.xib */; };
+		114F828D2A64716E00CA3F04 /* NewDeckOneScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F828B2A64716E00CA3F04 /* NewDeckOneScreen.swift */; };
+		114F828E2A64716E00CA3F04 /* NewDeckOneScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F828C2A64716E00CA3F04 /* NewDeckOneScreen.xib */; };
+		114F82912A64717800CA3F04 /* NewDeckTwoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F828F2A64717800CA3F04 /* NewDeckTwoScreen.swift */; };
+		114F82922A64717800CA3F04 /* NewDeckTwoScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114F82902A64717800CA3F04 /* NewDeckTwoScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114F81DF2A63CC6A00CA3F04 /* iOS-Koski-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Koski-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		114F81E22A63CC6A00CA3F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		114F81E42A63CC6A00CA3F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		114F81E62A63CC6A00CA3F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		114F81E92A63CC6A00CA3F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114F81EB2A63CC6B00CA3F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		114F81EE2A63CC6B00CA3F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		114F81F02A63CC6B00CA3F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114F81FB2A63CEFA00CA3F04 /* WeclomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeclomeScreen.swift; sourceTree = "<group>"; };
+		114F81FC2A63CEFA00CA3F04 /* WeclomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeclomeScreen.xib; sourceTree = "<group>"; };
+		114F82002A63D13500CA3F04 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		114F82012A63D13500CA3F04 /* RegisterScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterScreen.xib; sourceTree = "<group>"; };
+		114F82052A63D96000CA3F04 /* NewAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountScreen.swift; sourceTree = "<group>"; };
+		114F82062A63D96000CA3F04 /* NewAccountScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAccountScreen.xib; sourceTree = "<group>"; };
+		114F820A2A63DC1400CA3F04 /* SuccessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessScreen.swift; sourceTree = "<group>"; };
+		114F820B2A63DC1400CA3F04 /* SuccessScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessScreen.xib; sourceTree = "<group>"; };
+		114F82182A63DF8200CA3F04 /* UIInteractiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIInteractiveView.swift; sourceTree = "<group>"; };
+		114F82192A63DF8200CA3F04 /* UIDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDefaultView.swift; sourceTree = "<group>"; };
+		114F82282A63E61300CA3F04 /* UIImageResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageResize.swift; sourceTree = "<group>"; };
+		114F822A2A63E61300CA3F04 /* DefaultPresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPresentationStyle.swift; sourceTree = "<group>"; };
+		114F822E2A63E8D900CA3F04 /* TabBarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScreen.swift; sourceTree = "<group>"; };
+		114F82352A63F19200CA3F04 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		114F82362A63F19200CA3F04 /* HomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreen.xib; sourceTree = "<group>"; };
+		114F823A2A63FF6F00CA3F04 /* DecksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksScreen.swift; sourceTree = "<group>"; };
+		114F823B2A63FF6F00CA3F04 /* DecksScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DecksScreen.xib; sourceTree = "<group>"; };
+		114F823F2A64072100CA3F04 /* TypeOfGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfGameScreen.swift; sourceTree = "<group>"; };
+		114F82402A64072100CA3F04 /* TypeOfGameScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeOfGameScreen.xib; sourceTree = "<group>"; };
+		114F82442A64140C00CA3F04 /* TypeOfSuperPowerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfSuperPowerScreen.swift; sourceTree = "<group>"; };
+		114F82452A64140C00CA3F04 /* TypeOfSuperPowerScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeOfSuperPowerScreen.xib; sourceTree = "<group>"; };
+		114F82492A64204A00CA3F04 /* SetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetScreen.swift; sourceTree = "<group>"; };
+		114F824A2A64204A00CA3F04 /* SetScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetScreen.xib; sourceTree = "<group>"; };
+		114F824E2A6427EE00CA3F04 /* SetScreenOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetScreenOrange.swift; sourceTree = "<group>"; };
+		114F824F2A6427EE00CA3F04 /* SetScreenOrange.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetScreenOrange.xib; sourceTree = "<group>"; };
+		114F82532A642C3C00CA3F04 /* HelpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScreen.swift; sourceTree = "<group>"; };
+		114F82542A642C3C00CA3F04 /* HelpScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpScreen.xib; sourceTree = "<group>"; };
+		114F82582A643F9B00CA3F04 /* SetHelpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetHelpScreen.swift; sourceTree = "<group>"; };
+		114F82592A643F9B00CA3F04 /* SetHelpScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetHelpScreen.xib; sourceTree = "<group>"; };
+		114F825D2A64442600CA3F04 /* PauseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScreen.swift; sourceTree = "<group>"; };
+		114F825E2A64442600CA3F04 /* PauseScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PauseScreen.xib; sourceTree = "<group>"; };
+		114F82622A64486F00CA3F04 /* GiveUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveUpScreen.swift; sourceTree = "<group>"; };
+		114F82632A64486F00CA3F04 /* GiveUpScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiveUpScreen.xib; sourceTree = "<group>"; };
+		114F82672A644A3700CA3F04 /* GoodEndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodEndScreen.swift; sourceTree = "<group>"; };
+		114F82682A644A3700CA3F04 /* GoodEndScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodEndScreen.xib; sourceTree = "<group>"; };
+		114F826C2A64533700CA3F04 /* BadEndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadEndScreen.swift; sourceTree = "<group>"; };
+		114F826D2A64533700CA3F04 /* BadEndScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadEndScreen.xib; sourceTree = "<group>"; };
+		114F82712A64549F00CA3F04 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
+		114F82722A64549F00CA3F04 /* MoreScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreScreen.xib; sourceTree = "<group>"; };
+		114F82762A64579700CA3F04 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		114F82772A64579700CA3F04 /* AccountScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountScreen.xib; sourceTree = "<group>"; };
+		114F827B2A645EB100CA3F04 /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreen.swift; sourceTree = "<group>"; };
+		114F827C2A645EB100CA3F04 /* StatsScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatsScreen.xib; sourceTree = "<group>"; };
+		114F82832A6463BA00CA3F04 /* HowToPlayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayScreen.swift; sourceTree = "<group>"; };
+		114F82842A6463BA00CA3F04 /* HowToPlayScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowToPlayScreen.xib; sourceTree = "<group>"; };
+		114F82872A6469BE00CA3F04 /* GiveFeedBackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFeedBackScreen.swift; sourceTree = "<group>"; };
+		114F82882A6469BE00CA3F04 /* GiveFeedBackScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiveFeedBackScreen.xib; sourceTree = "<group>"; };
+		114F828B2A64716E00CA3F04 /* NewDeckOneScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeckOneScreen.swift; sourceTree = "<group>"; };
+		114F828C2A64716E00CA3F04 /* NewDeckOneScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewDeckOneScreen.xib; sourceTree = "<group>"; };
+		114F828F2A64717800CA3F04 /* NewDeckTwoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeckTwoScreen.swift; sourceTree = "<group>"; };
+		114F82902A64717800CA3F04 /* NewDeckTwoScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewDeckTwoScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114F81DC2A63CC6A00CA3F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114F81D62A63CC6A00CA3F04 = {
+			isa = PBXGroup;
+			children = (
+				114F81E12A63CC6A00CA3F04 /* iOS-Koski-Game */,
+				114F81E02A63CC6A00CA3F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		114F81E02A63CC6A00CA3F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114F81DF2A63CC6A00CA3F04 /* iOS-Koski-Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114F81E12A63CC6A00CA3F04 /* iOS-Koski-Game */ = {
+			isa = PBXGroup;
+			children = (
+				114F82162A63DF8200CA3F04 /* Workers */,
+				114F81F72A63CD8100CA3F04 /* Storage */,
+				114F81F62A63CD4B00CA3F04 /* Presentation */,
+				114F81F02A63CC6B00CA3F04 /* Info.plist */,
+			);
+			path = "iOS-Koski-Game";
+			sourceTree = "<group>";
+		};
+		114F81F62A63CD4B00CA3F04 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				114F82822A64639600CA3F04 /* NewDeckScreen */,
+				114F82812A64638500CA3F04 /* GiveFeedbackScreen */,
+				114F82802A64637E00CA3F04 /* HowToPlayScreen */,
+				114F827A2A645EA700CA3F04 /* StatsScreen */,
+				114F82752A64578900CA3F04 /* AccountScreen */,
+				114F82702A64548F00CA3F04 /* MoreScreen */,
+				114F826B2A64532800CA3F04 /* BadEndScreen */,
+				114F82662A644A2800CA3F04 /* GoodEndScreen */,
+				114F82612A64485E00CA3F04 /* GiveUpScreen */,
+				114F825C2A64441900CA3F04 /* PauseScreen */,
+				114F82572A643F8800CA3F04 /* SetHelpScreen */,
+				114F82522A642AB400CA3F04 /* HelpScreen */,
+				114F824D2A6427DE00CA3F04 /* SetScreenOragne */,
+				114F82482A64203E00CA3F04 /* SetScreen */,
+				114F82432A6413FA00CA3F04 /* TypeOfSuperPower */,
+				114F823E2A64070A00CA3F04 /* TypeOfGameScreen */,
+				114F82392A63FF5A00CA3F04 /* DecksScreen */,
+				114F82342A63F14900CA3F04 /* HomeScreen */,
+				114F820E2A63DE5000CA3F04 /* MainTabbar */,
+				114F82092A63DC0300CA3F04 /* SuccessScreen */,
+				114F82042A63D94A00CA3F04 /* NewAccountScreen */,
+				114F81FF2A63D10300CA3F04 /* RegisterScreen */,
+				114F81FA2A63CEEB00CA3F04 /* WeclomeScreen */,
+				114F81F92A63CDAF00CA3F04 /* Default */,
+				114F82242A63E61300CA3F04 /* Common */,
+				114F81F82A63CD9F00CA3F04 /* Application */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		114F81F72A63CD8100CA3F04 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				114F81ED2A63CC6B00CA3F04 /* LaunchScreen.storyboard */,
+				114F81EB2A63CC6B00CA3F04 /* Assets.xcassets */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		114F81F82A63CD9F00CA3F04 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				114F81E42A63CC6A00CA3F04 /* SceneDelegate.swift */,
+				114F81E22A63CC6A00CA3F04 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		114F81F92A63CDAF00CA3F04 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				114F81E62A63CC6A00CA3F04 /* ViewController.swift */,
+				114F81E82A63CC6A00CA3F04 /* Main.storyboard */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		114F81FA2A63CEEB00CA3F04 /* WeclomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F81FB2A63CEFA00CA3F04 /* WeclomeScreen.swift */,
+				114F81FC2A63CEFA00CA3F04 /* WeclomeScreen.xib */,
+			);
+			path = WeclomeScreen;
+			sourceTree = "<group>";
+		};
+		114F81FF2A63D10300CA3F04 /* RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82002A63D13500CA3F04 /* RegisterScreen.swift */,
+				114F82012A63D13500CA3F04 /* RegisterScreen.xib */,
+			);
+			path = RegisterScreen;
+			sourceTree = "<group>";
+		};
+		114F82042A63D94A00CA3F04 /* NewAccountScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82052A63D96000CA3F04 /* NewAccountScreen.swift */,
+				114F82062A63D96000CA3F04 /* NewAccountScreen.xib */,
+			);
+			path = NewAccountScreen;
+			sourceTree = "<group>";
+		};
+		114F82092A63DC0300CA3F04 /* SuccessScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F820A2A63DC1400CA3F04 /* SuccessScreen.swift */,
+				114F820B2A63DC1400CA3F04 /* SuccessScreen.xib */,
+			);
+			path = SuccessScreen;
+			sourceTree = "<group>";
+		};
+		114F820E2A63DE5000CA3F04 /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				114F820F2A63DE5000CA3F04 /* CustomTabbar */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		114F820F2A63DE5000CA3F04 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				114F822E2A63E8D900CA3F04 /* TabBarScreen.swift */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		114F82162A63DF8200CA3F04 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				114F82172A63DF8200CA3F04 /* Custom Classes */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		114F82172A63DF8200CA3F04 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				114F82182A63DF8200CA3F04 /* UIInteractiveView.swift */,
+				114F82192A63DF8200CA3F04 /* UIDefaultView.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		114F82242A63E61300CA3F04 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				114F82252A63E61300CA3F04 /* Extentions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		114F82252A63E61300CA3F04 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				114F82262A63E61300CA3F04 /* UIKit */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		114F82262A63E61300CA3F04 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				114F82272A63E61300CA3F04 /* UIImage */,
+				114F82292A63E61300CA3F04 /* UIPresentViewController */,
+				114F822B2A63E61300CA3F04 /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		114F82272A63E61300CA3F04 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				114F82282A63E61300CA3F04 /* UIImageResize.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		114F82292A63E61300CA3F04 /* UIPresentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				114F822A2A63E61300CA3F04 /* DefaultPresentationStyle.swift */,
+			);
+			path = UIPresentViewController;
+			sourceTree = "<group>";
+		};
+		114F822B2A63E61300CA3F04 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		114F82342A63F14900CA3F04 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82352A63F19200CA3F04 /* HomeScreen.swift */,
+				114F82362A63F19200CA3F04 /* HomeScreen.xib */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		114F82392A63FF5A00CA3F04 /* DecksScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F823A2A63FF6F00CA3F04 /* DecksScreen.swift */,
+				114F823B2A63FF6F00CA3F04 /* DecksScreen.xib */,
+			);
+			path = DecksScreen;
+			sourceTree = "<group>";
+		};
+		114F823E2A64070A00CA3F04 /* TypeOfGameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F823F2A64072100CA3F04 /* TypeOfGameScreen.swift */,
+				114F82402A64072100CA3F04 /* TypeOfGameScreen.xib */,
+			);
+			path = TypeOfGameScreen;
+			sourceTree = "<group>";
+		};
+		114F82432A6413FA00CA3F04 /* TypeOfSuperPower */ = {
+			isa = PBXGroup;
+			children = (
+				114F82442A64140C00CA3F04 /* TypeOfSuperPowerScreen.swift */,
+				114F82452A64140C00CA3F04 /* TypeOfSuperPowerScreen.xib */,
+			);
+			path = TypeOfSuperPower;
+			sourceTree = "<group>";
+		};
+		114F82482A64203E00CA3F04 /* SetScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82492A64204A00CA3F04 /* SetScreen.swift */,
+				114F824A2A64204A00CA3F04 /* SetScreen.xib */,
+			);
+			path = SetScreen;
+			sourceTree = "<group>";
+		};
+		114F824D2A6427DE00CA3F04 /* SetScreenOragne */ = {
+			isa = PBXGroup;
+			children = (
+				114F824E2A6427EE00CA3F04 /* SetScreenOrange.swift */,
+				114F824F2A6427EE00CA3F04 /* SetScreenOrange.xib */,
+			);
+			path = SetScreenOragne;
+			sourceTree = "<group>";
+		};
+		114F82522A642AB400CA3F04 /* HelpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82532A642C3C00CA3F04 /* HelpScreen.swift */,
+				114F82542A642C3C00CA3F04 /* HelpScreen.xib */,
+			);
+			path = HelpScreen;
+			sourceTree = "<group>";
+		};
+		114F82572A643F8800CA3F04 /* SetHelpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82582A643F9B00CA3F04 /* SetHelpScreen.swift */,
+				114F82592A643F9B00CA3F04 /* SetHelpScreen.xib */,
+			);
+			path = SetHelpScreen;
+			sourceTree = "<group>";
+		};
+		114F825C2A64441900CA3F04 /* PauseScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F825D2A64442600CA3F04 /* PauseScreen.swift */,
+				114F825E2A64442600CA3F04 /* PauseScreen.xib */,
+			);
+			path = PauseScreen;
+			sourceTree = "<group>";
+		};
+		114F82612A64485E00CA3F04 /* GiveUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82622A64486F00CA3F04 /* GiveUpScreen.swift */,
+				114F82632A64486F00CA3F04 /* GiveUpScreen.xib */,
+			);
+			path = GiveUpScreen;
+			sourceTree = "<group>";
+		};
+		114F82662A644A2800CA3F04 /* GoodEndScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82672A644A3700CA3F04 /* GoodEndScreen.swift */,
+				114F82682A644A3700CA3F04 /* GoodEndScreen.xib */,
+			);
+			path = GoodEndScreen;
+			sourceTree = "<group>";
+		};
+		114F826B2A64532800CA3F04 /* BadEndScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F826C2A64533700CA3F04 /* BadEndScreen.swift */,
+				114F826D2A64533700CA3F04 /* BadEndScreen.xib */,
+			);
+			path = BadEndScreen;
+			sourceTree = "<group>";
+		};
+		114F82702A64548F00CA3F04 /* MoreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82712A64549F00CA3F04 /* MoreScreen.swift */,
+				114F82722A64549F00CA3F04 /* MoreScreen.xib */,
+			);
+			path = MoreScreen;
+			sourceTree = "<group>";
+		};
+		114F82752A64578900CA3F04 /* AccountScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82762A64579700CA3F04 /* AccountScreen.swift */,
+				114F82772A64579700CA3F04 /* AccountScreen.xib */,
+			);
+			path = AccountScreen;
+			sourceTree = "<group>";
+		};
+		114F827A2A645EA700CA3F04 /* StatsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F827B2A645EB100CA3F04 /* StatsScreen.swift */,
+				114F827C2A645EB100CA3F04 /* StatsScreen.xib */,
+			);
+			path = StatsScreen;
+			sourceTree = "<group>";
+		};
+		114F82802A64637E00CA3F04 /* HowToPlayScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82832A6463BA00CA3F04 /* HowToPlayScreen.swift */,
+				114F82842A6463BA00CA3F04 /* HowToPlayScreen.xib */,
+			);
+			path = HowToPlayScreen;
+			sourceTree = "<group>";
+		};
+		114F82812A64638500CA3F04 /* GiveFeedbackScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82872A6469BE00CA3F04 /* GiveFeedBackScreen.swift */,
+				114F82882A6469BE00CA3F04 /* GiveFeedBackScreen.xib */,
+			);
+			path = GiveFeedbackScreen;
+			sourceTree = "<group>";
+		};
+		114F82822A64639600CA3F04 /* NewDeckScreen */ = {
+			isa = PBXGroup;
+			children = (
+				114F82942A64718300CA3F04 /* Two */,
+				114F82932A64717D00CA3F04 /* One */,
+			);
+			path = NewDeckScreen;
+			sourceTree = "<group>";
+		};
+		114F82932A64717D00CA3F04 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				114F828B2A64716E00CA3F04 /* NewDeckOneScreen.swift */,
+				114F828C2A64716E00CA3F04 /* NewDeckOneScreen.xib */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		114F82942A64718300CA3F04 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				114F828F2A64717800CA3F04 /* NewDeckTwoScreen.swift */,
+				114F82902A64717800CA3F04 /* NewDeckTwoScreen.xib */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114F81DE2A63CC6A00CA3F04 /* iOS-Koski-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114F81F32A63CC6B00CA3F04 /* Build configuration list for PBXNativeTarget "iOS-Koski-Game" */;
+			buildPhases = (
+				114F81DB2A63CC6A00CA3F04 /* Sources */,
+				114F81DC2A63CC6A00CA3F04 /* Frameworks */,
+				114F81DD2A63CC6A00CA3F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Koski-Game";
+			productName = "iOS-Koski-Game";
+			productReference = 114F81DF2A63CC6A00CA3F04 /* iOS-Koski-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114F81D72A63CC6A00CA3F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					114F81DE2A63CC6A00CA3F04 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 114F81DA2A63CC6A00CA3F04 /* Build configuration list for PBXProject "iOS-Koski-Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114F81D62A63CC6A00CA3F04;
+			productRefGroup = 114F81E02A63CC6A00CA3F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114F81DE2A63CC6A00CA3F04 /* iOS-Koski-Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114F81DD2A63CC6A00CA3F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114F82382A63F19200CA3F04 /* HomeScreen.xib in Resources */,
+				114F823D2A63FF6F00CA3F04 /* DecksScreen.xib in Resources */,
+				114F82862A6463BA00CA3F04 /* HowToPlayScreen.xib in Resources */,
+				114F82512A6427EE00CA3F04 /* SetScreenOrange.xib in Resources */,
+				114F82032A63D13500CA3F04 /* RegisterScreen.xib in Resources */,
+				114F826F2A64533700CA3F04 /* BadEndScreen.xib in Resources */,
+				114F82922A64717800CA3F04 /* NewDeckTwoScreen.xib in Resources */,
+				114F82652A64486F00CA3F04 /* GiveUpScreen.xib in Resources */,
+				114F81EF2A63CC6B00CA3F04 /* LaunchScreen.storyboard in Resources */,
+				114F82082A63D96000CA3F04 /* NewAccountScreen.xib in Resources */,
+				114F81EC2A63CC6B00CA3F04 /* Assets.xcassets in Resources */,
+				114F824C2A64204A00CA3F04 /* SetScreen.xib in Resources */,
+				114F820D2A63DC1400CA3F04 /* SuccessScreen.xib in Resources */,
+				114F81FE2A63CEFA00CA3F04 /* WeclomeScreen.xib in Resources */,
+				114F82562A642C3C00CA3F04 /* HelpScreen.xib in Resources */,
+				114F826A2A644A3700CA3F04 /* GoodEndScreen.xib in Resources */,
+				114F828E2A64716E00CA3F04 /* NewDeckOneScreen.xib in Resources */,
+				114F828A2A6469BE00CA3F04 /* GiveFeedBackScreen.xib in Resources */,
+				114F825B2A643F9B00CA3F04 /* SetHelpScreen.xib in Resources */,
+				114F82422A64072100CA3F04 /* TypeOfGameScreen.xib in Resources */,
+				114F82472A64140C00CA3F04 /* TypeOfSuperPowerScreen.xib in Resources */,
+				114F82602A64442600CA3F04 /* PauseScreen.xib in Resources */,
+				114F82792A64579700CA3F04 /* AccountScreen.xib in Resources */,
+				114F827E2A645EB100CA3F04 /* StatsScreen.xib in Resources */,
+				114F82742A64549F00CA3F04 /* MoreScreen.xib in Resources */,
+				114F81EA2A63CC6A00CA3F04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114F81DB2A63CC6A00CA3F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114F82022A63D13500CA3F04 /* RegisterScreen.swift in Sources */,
+				114F825F2A64442600CA3F04 /* PauseScreen.swift in Sources */,
+				114F822C2A63E61300CA3F04 /* UIImageResize.swift in Sources */,
+				114F82732A64549F00CA3F04 /* MoreScreen.swift in Sources */,
+				114F821A2A63DF8200CA3F04 /* UIInteractiveView.swift in Sources */,
+				114F81E72A63CC6A00CA3F04 /* ViewController.swift in Sources */,
+				114F828D2A64716E00CA3F04 /* NewDeckOneScreen.swift in Sources */,
+				114F820C2A63DC1400CA3F04 /* SuccessScreen.swift in Sources */,
+				114F82852A6463BA00CA3F04 /* HowToPlayScreen.swift in Sources */,
+				114F82912A64717800CA3F04 /* NewDeckTwoScreen.swift in Sources */,
+				114F824B2A64204A00CA3F04 /* SetScreen.swift in Sources */,
+				114F82072A63D96000CA3F04 /* NewAccountScreen.swift in Sources */,
+				114F82372A63F19200CA3F04 /* HomeScreen.swift in Sources */,
+				114F82502A6427EE00CA3F04 /* SetScreenOrange.swift in Sources */,
+				114F82552A642C3C00CA3F04 /* HelpScreen.swift in Sources */,
+				114F821B2A63DF8200CA3F04 /* UIDefaultView.swift in Sources */,
+				114F82782A64579700CA3F04 /* AccountScreen.swift in Sources */,
+				114F822F2A63E8D900CA3F04 /* TabBarScreen.swift in Sources */,
+				114F822D2A63E61300CA3F04 /* DefaultPresentationStyle.swift in Sources */,
+				114F82462A64140C00CA3F04 /* TypeOfSuperPowerScreen.swift in Sources */,
+				114F823C2A63FF6F00CA3F04 /* DecksScreen.swift in Sources */,
+				114F82692A644A3700CA3F04 /* GoodEndScreen.swift in Sources */,
+				114F825A2A643F9B00CA3F04 /* SetHelpScreen.swift in Sources */,
+				114F82412A64072100CA3F04 /* TypeOfGameScreen.swift in Sources */,
+				114F826E2A64533700CA3F04 /* BadEndScreen.swift in Sources */,
+				114F81E32A63CC6A00CA3F04 /* AppDelegate.swift in Sources */,
+				114F81FD2A63CEFA00CA3F04 /* WeclomeScreen.swift in Sources */,
+				114F827D2A645EB100CA3F04 /* StatsScreen.swift in Sources */,
+				114F82892A6469BE00CA3F04 /* GiveFeedBackScreen.swift in Sources */,
+				114F81E52A63CC6A00CA3F04 /* SceneDelegate.swift in Sources */,
+				114F82642A64486F00CA3F04 /* GiveUpScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		114F81E82A63CC6A00CA3F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114F81E92A63CC6A00CA3F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114F81ED2A63CC6B00CA3F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114F81EE2A63CC6B00CA3F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114F81F12A63CC6B00CA3F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		114F81F22A63CC6B00CA3F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114F81F42A63CC6B00CA3F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Koski-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koski.iOS-Koski-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		114F81F52A63CC6B00CA3F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Koski-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koski.iOS-Koski-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114F81DA2A63CC6A00CA3F04 /* Build configuration list for PBXProject "iOS-Koski-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114F81F12A63CC6B00CA3F04 /* Debug */,
+				114F81F22A63CC6B00CA3F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114F81F32A63CC6B00CA3F04 /* Build configuration list for PBXNativeTarget "iOS-Koski-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114F81F42A63CC6B00CA3F04 /* Debug */,
+				114F81F52A63CC6B00CA3F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114F81D72A63CC6A00CA3F04 /* Project object */;
+}
